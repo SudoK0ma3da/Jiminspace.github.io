@@ -1,0 +1,113 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #f0f0e8; /* muted off-white */
+  color: #333;
+  line-height: 1.5;
+  margin: 20px;
+}
+/* Header */
+#page-wrap {
+display: flex;
+flex-direction: column;
+}
+
+.site-top{
+  padding: 2rem;
+  border-bottom: 3px solid #ccc;
+  text-align: center;
+}
+.title {
+  margin: 20px;
+}
+.blogs {
+  text-align:center;
+  display: inline;
+}
+#dirs li {
+  display:inline;
+  margin: 10px;
+  text-align:left;
+}
+#dirs li a:link {
+  color: #4a83b5;
+}
+.logo {
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+/* Layout */
+.main-grid{
+  display: flex;
+  background-color:#122921;
+  border: solid 3px #f6fbf3;
+  margin: 0;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.main-grid h3 {
+	font-size: 30px;
+  margin-bottom: 30px;
+  color: #0a3c79;
+}
+
+.site-top h2 {
+  font-size: 2rem;
+  color: #6b6e53; /* subtle green hint */
+  margin: 3rem;
+}
+.links h3 {
+  font-size: 1.5rem;
+  color: #555;
+}
+.links {
+  list-style: none;
+  margin-top: 1rem;
+}
+.links li {
+  font-size: 1.3rem;
+}
+.projects {
+ padding: 20px;
+ margin:10px;
+}
+.projects h1 {
+  margin: 39px;
+  color: #0a3c79;
+}
+.projects ul {list-style:none;
+}
+.projects ul li {
+  font-size: 20px;
+}
+.projects ul a:link {
+  color: #4a83b5;
+}
+/* Footer */
+.site-foot {
+  text-align: center;
+  padding: 2rem;
+  border-top: 3px solid #ccc;
+  font-size: 0.875rem;
+  color: #666;
+}
+ .contact li{font-size: 18px;}
+/* Optional subtle hover */
+.links a:hover {
+  color: #6b6e53;
+}
+.links { 
+  height: auto;
+  display:flex;
+  flex-direction row;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
